@@ -1,0 +1,12 @@
+[+] Kernel successfully decompressed in-memory (the offsets that follow will be given relative to the decompressed binary)
+[+] Version string: Linux version 4.14.141-g5e607c7 (builder@c4-miui-ota-bd089.bj) (Android (5484270 based on r353983c) clang version 9.0.3 (https://android.googlesource.com/toolchain/clang 745b335211bb9eadfa6aa6301f84715cee4b37c5) (https://android.googlesource.com/toolchain/llvm 60cf23e54e46c807513f7a36d0a7b777920b5881) (based on LLVM 9.0.3svn)) #1 SMP PREEMPT Thu Jun 4 03:32:41 CST 2020
+[+] Guessed architecture: aarch64 successfully in 14.93859076499939 seconds
+[+] Found kallsyms_token_table at file offset 0x0136cc00
+Traceback (most recent call last):
+  File "/mnt/zinadin/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 960, in <module>
+    kallsyms = KallsymsFinder(obtain_raw_kernel_from_file(kernel_bin.read()), args.bit_size)
+  File "/mnt/zinadin/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 187, in __init__
+    self.find_kallsyms_token_index()
+  File "/mnt/zinadin/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 337, in find_kallsyms_token_index
+    raise ValueError('This structure is not a kallsyms_token_table')
+ValueError: This structure is not a kallsyms_token_table

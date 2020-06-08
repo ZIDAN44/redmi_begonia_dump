@@ -1,0 +1,13 @@
+# begonia-user 10 QP1A.190711.020 20.6.4 release-keys
+- manufacturer: xiaomi
+- platform: mt6785
+- codename: begonia
+- flavor: begonia-user
+- release: 10
+- id: QP1A.190711.020
+- incremental: 20.6.4
+- tags: release-keys
+- fingerprint: Redmi/begonia/begonia:10/QP1A.190711.020/20.6.4:user/release-keys
+- brand: Redmi
+- branch: begonia-user-10-QP1A.190711.020-20.6.4-release-keys
+- repo: redmi_begonia_dump
