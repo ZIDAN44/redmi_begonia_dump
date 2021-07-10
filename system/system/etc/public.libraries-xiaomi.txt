@@ -1,0 +1,5 @@
+libcamera_algoup_jni.xiaomi.so
+libcamera_mianode_jni.xiaomi.so
+libcamera_imagecodec_jni.xiaomi.so
+libcamera_chroma_nr.xiaomi.so
+
